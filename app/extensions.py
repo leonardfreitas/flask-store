@@ -18,8 +18,8 @@ def init_app(app):
     CORS(app)
     Migrate(app, db)
 
-    from app.models import User
+    from app.models import User, Product, Category
 
     @app.shell_context_processor
     def context_processor():
-        return dict(app=app, db=db, User=User)
+        return dict(app=app, db=db, User=User, Product=Product, Category=Category)
