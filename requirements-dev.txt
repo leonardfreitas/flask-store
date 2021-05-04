@@ -1,0 +1,6 @@
+-r requirements.txt
+python-dotenv==0.14.0
+pytest==6.0.2
+pytest-flask==1.0.0
+pytest-regressions==2.0.1
+black==18.5b0

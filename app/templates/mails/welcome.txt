@@ -1,0 +1,4 @@
+Ola, {{ email }}
+Obrigado por criar uma conta na Flask Store
+Atenciosamente,
+Leonardo Freitas
